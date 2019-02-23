@@ -48,7 +48,7 @@ public class Entry extends AppCompatActivity {
         ButterKnife.bind(this);
         mys = new Mysqlist(this,"zhu_c",null,1);
         r = mys.getReadableDatabase();
-        w=mys.getWritableDatabase();
+        w=mys.getWritableDatabase(); //
         mdata=new ArrayList<St>();
         Cursor query = r.rawQuery("select * from user_mo", null);
         while(query.moveToNext()){
