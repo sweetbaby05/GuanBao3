@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_entry"
+    tools:context=".Entry"
+    android:orientation="vertical">
+
+
+
+    <View
+        style="@style/MineFunctionDivider"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"></LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="@string/hintname"
+        />
+
+    <EditText
+        android:id="@+id/edit_userpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:inputType="textPassword"
+        android:hint="@string/hintpassword"
+        />
+
+    <View
+        style="@style/MineFunctionDivider"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_F3F5F4"
+        />
+
+    <Button
+        android:id="@+id/button_entry"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/color_379b2a"
+        android:text="@string/entry"
+        android:textColor="@color/color_f4f5f6"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_F3F5F4"
+        />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/color_379b2a"
+        android:text="@string/register"
+        android:textColor="@color/color_f4f5f6"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>

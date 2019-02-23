@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"></LinearLayout>
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:layout_margin="30dp"
+         android:background="#fc6eac5f"
+       >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_d8d8d8" />
+
+    </RelativeLayout>
+         <View
+             android:layout_marginLeft="0dp"
+             style="@style/MineFunctionDivider"
+             />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/color_d8d8d8"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/icon_love"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="  招募公益人员"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/color_d8d8d8"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+    <View
+        android:layout_marginLeft="0dp"
+        style="@style/MineFunctionDivider"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/color_d8d8d8"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/second_mony"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="  发布有偿动态"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/color_d8d8d8"
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginLeft="0dp"
+        style="@style/MineFunctionDivider"
+        />
+
+
+
+
+
+
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/color_d8d8d8"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/second"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="  更新我的动态"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/color_d8d8d8"
+            />
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="0dp"
+        style="@style/MineFunctionDivider"
+        />
+
+     </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GuanBao</string>
+    <string name="dynamic">动态</string>
+    <string name="fans">粉丝</string>
+    <string name="week_visitor">7天访客</string>
+
+    <string name="collect">收藏</string>
+    <string name="history">历史</string>
+    <string name="night">夜间</string>
+
+    <string name="message_inform">消息通知</string>
+
+    <string name="user_register">用户注册</string>
+
+    <string name="user_entry">用户登录</string>
+
+    <string name="user_help">版本信息</string>
+    <string name="hint_help">发布相关信息</string>
+
+
+    <string name="feed_back">用户反馈</string>
+    <string name="hint_back">请拨打18362912017</string>
+
+
+    <string name="hintname">请输入用户账号</string>
+    <string name="hintpassword">请输入密码</string>
+    <string name="entry">登录</string>
+    <string name="register">注册</string>
+    <string name="welcomeguanbao">欢迎来到关宝</string>
+
+
+    <string name="tab_home">首页</string>
+    <string name="tab_micro">发布</string>
+    <string name="tab_video">视频</string>
+    <string name="tab_me">我的</string>
+    <string name="text">  招募公益人员</string>
+    <string name="plus">  发布有偿动态</string>
+    <string name="dynamlc">  发布我的动态</string>
+    <string name="pic">图片</string>
+    <string name="video">视频</string>
+    <string name="tab_issue">发布</string>
+
+    <string name="hint_issue">请发布相关信息</string>
+    <string name="hint_backfeed">请联系管理员</string>
+
+</resources>
